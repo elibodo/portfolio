@@ -1,101 +1,86 @@
-import Image from "next/image";
+import { BiLinkExternal, BiLogoGithub } from "react-icons/bi";
+import { BiLogoLinkedinSquare } from "react-icons/bi";
+import { MdAlternateEmail } from "react-icons/md";
+import Technologies from "./components/Technologies";
+import WorkExperience from "./components/WorkExperience";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+    <section className="flex flex-col md:flex-row mx-2 md:px-8 lg:px-28 items-start">
+      <div className="w-full md:w-4/12 flex flex-col items-center mx-auto md:sticky md:top-24">
+        <h1 className="text-2xl w-full self-start">Hi, my name is</h1>
+        <span className="absolute w-full mt-[52px] bg-cyan-700 mx-2 blur-lg bg-clip-text text-5xl md:text-6xl text-transparent select-none">
+          Eli Bodovinitz
+        </span>
+        <h2 className="text-5xl md:text-6xl w-full mt-5 text-cyan-500">
+          Eli Bodovinitz
+        </h2>
+        <p className="mt-5 justify-center md:self-start">
+          I&apos;m a full stack web developer.
+        </p>
+        <p className="mt-5 justify-center md:self-start text-cyan-500">
+          Riverview, Florida
+        </p>
+        <p className=" justify-center md:self-start text-cyan-500">
+          ebodovinitz@gmail.com
+        </p>
+        <div className="flex flex-row my-5 gap-5 text-3xl justify-center md:self-start">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
+            href={"https://github.com/elibodo"}
+            className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            <BiLogoGithub />
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
+            href={"https://www.linkedin.com/in/eli-bodovinitz"}
+            className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
           >
-            Read our docs
+            <BiLogoLinkedinSquare />
+          </a>
+          <a
+            href={"mailto:ebodovinitz@gmail.com"}
+            className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
+          >
+            <MdAlternateEmail />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"EliBodovinitz.pdf"}
+            className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
+          >
+            <BiLinkExternal />
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <p className="text-sm">
+          I'm a web developer with experience in JavaScript, TypeScript, React,
+          Next.js, and Tailwind CSS. I use these technologies to build modern,
+          responsive websites and apps. I thrive on solving complex problems and
+          delivering scalable, efficient solutions. I enjoy building
+          applications that I'm passionate about, driven by the desire to create
+          what I believe should exist.
+        </p>
+      </div>
+      <div className="w-full md:w-6/12">
+        <section id="technologies" className="py-24">
+          <Technologies />
+        </section>
+        <section id="workexperience" className="py-24">
+          <WorkExperience />
+        </section>
+        <section id="projects" className="py-24">
+          <Projects />
+        </section>
+        <section id="education" className="py-24">
+          <Education />
+        </section>
+      </div>
+    </section>
   );
 }
