@@ -59,12 +59,12 @@ export default function Home() {
           </a>
         </div>
         <p className="text-sm">
-          I'm a web developer with experience in JavaScript, TypeScript, React,
-          Next.js, and Tailwind CSS. I use these technologies to build modern,
-          responsive websites and apps. I thrive on solving complex problems and
-          delivering scalable, efficient solutions. I enjoy building
-          applications that I'm passionate about, driven by the desire to create
-          what I believe should exist.
+          I&apos;m a web developer with experience in JavaScript, TypeScript,
+          React, Next.js, and Tailwind CSS. I use these technologies to build
+          modern, responsive websites and apps. I thrive on solving complex
+          problems and delivering scalable, efficient solutions. I enjoy
+          building applications that I&apos;m passionate about, driven by the
+          desire to create what I believe should exist.
         </p>
       </div>
       <div className="w-full md:w-6/12">
