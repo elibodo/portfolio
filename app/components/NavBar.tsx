@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { BiLinkExternal } from "react-icons/bi";
+import { GiHamburgerMenu } from "react-icons/gi";
+import Link from "next/link";
 
 const NavBar = () => {
   const [activeSection, setActiveSection] = useState<string>("");
