@@ -8,13 +8,15 @@ import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <section className="flex flex-col md:flex-row mx-2 md:px-8 lg:px-28 items-start">
+    <section className="flex flex-col md:flex-row mx-2 md:px-8 lg:px-28 items-start pt-20 md:pt-0">
       <div className="w-full md:w-4/12 flex flex-col items-center mx-auto md:sticky md:top-24">
-        <h1 className="text-2xl w-full self-start">Hi, my name is</h1>
-        <span className="absolute w-full mt-[52px] bg-cyan-700 mx-2 blur-lg bg-clip-text text-5xl md:text-6xl text-transparent select-none">
+        <h1 className="text-2xl w-full self-start md:text-left text-center">
+          Hi, my name is
+        </h1>
+        <span className="absolute w-full mt-[52px] bg-cyan-700 mx-2 blur-lg bg-clip-text text-5xl md:text-6xl text-transparent select-none md:text-left text-center">
           Eli Bodovinitz
         </span>
-        <h2 className="text-5xl md:text-6xl w-full mt-5 text-cyan-500">
+        <h2 className="text-5xl md:text-6xl w-full mt-5 text-cyan-500 md:text-left text-center">
           Eli Bodovinitz
         </h2>
         <p className="mt-5 justify-center md:self-start">
@@ -23,7 +25,7 @@ export default function Home() {
         <p className="mt-5 justify-center md:self-start text-cyan-500">
           Riverview, Florida
         </p>
-        <p className=" justify-center md:self-start text-cyan-500">
+        <p className="justify-center md:self-start text-cyan-500">
           ebodovinitz@gmail.com
         </p>
         <div className="flex flex-row my-5 gap-5 text-3xl justify-center md:self-start">
@@ -58,7 +60,7 @@ export default function Home() {
             <BiLinkExternal />
           </a>
         </div>
-        <p className="text-sm">
+        <p className="text-sm md:text-left text-center">
           I&apos;m a web developer with experience in JavaScript, TypeScript,
           React, Next.js, and Tailwind CSS. I use these technologies to build
           modern, responsive websites and apps. I thrive on solving complex
@@ -67,17 +69,17 @@ export default function Home() {
           desire to create what I believe should exist.
         </p>
       </div>
-      <div className="w-full md:w-6/12">
-        <section id="technologies" className="py-24">
+      <div className="w-full md:w-6/12 px-1">
+        <section id="technologies" className="py-10 lg:pb-10 md:pt-24">
           <Technologies />
         </section>
-        <section id="workexperience" className="py-24">
+        <section id="workexperience" className="pb-10 lg:pb-10 lg:pt-24">
           <WorkExperience />
         </section>
-        <section id="projects" className="py-24">
+        <section id="projects" className="pb-10 lg:pb-10 lg:pt-24">
           <Projects />
         </section>
-        <section id="education" className="py-24">
+        <section id="education" className="pb-10 lg:pb-24 lg:pt-24">
           <Education />
         </section>
       </div>
