@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Oxygen } from "@next/font/google";
+import { Oxygen } from "next/font/google";
 import NavBar from "./components/NavBar";
 import BottomNav from "./components/BottomNav";
 
