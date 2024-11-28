@@ -32,7 +32,7 @@ const BottomNav = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href={"EliBodovinitz_resume.pdf"}
+          href={"EliBodovinitz_Resume.pdf"}
           className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
         >
           <BiLinkExternal />
