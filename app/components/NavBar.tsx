@@ -25,7 +25,7 @@ const NavBar = () => {
       {
         root: null,
         rootMargin: "0px",
-        threshold: 0.7, // %70
+        threshold: 0.8, // %80
       }
     );
 
