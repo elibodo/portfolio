@@ -6,7 +6,7 @@ import BottomNav from "./components/BottomNav";
 
 const oxygen = Oxygen({
   subsets: ["latin"],
-  weight: ["400", "700"], // Use weights as per your design
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
