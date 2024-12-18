@@ -25,19 +25,14 @@ const Projects = () => {
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
-  const [isFlashing, setIsFlashing] = useState(false);
 
   const changeImage = (newIndex: number) => {
     setIsFading(true);
-    setIsFlashing(false);
     setTimeout(() => {
       setCurrentIndex(newIndex);
       setIsFading(false);
-      setIsFlashing(true);
-    }, 300);
-    setTimeout(() => {
-      setIsFlashing(false);
-    }, 500);
+    }, 700);
+    setTimeout(() => {}, 1000);
   };
 
   const nextImage = () => {
@@ -78,9 +73,7 @@ const Projects = () => {
               alt={`Image ${currentIndex + 1}`}
               width={800}
               height={600}
-              className={`rounded-lg transition-transform ${
-                isFlashing ? "scale-105" : "scale-100"
-              } duration-200`}
+              className={`rounded-lg transition-transform duration-1000`}
             />
           </div>
           <button
