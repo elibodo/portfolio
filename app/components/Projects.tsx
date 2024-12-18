@@ -76,11 +76,10 @@ const Projects = () => {
             <Image
               src={images[currentIndex]}
               alt={`Image ${currentIndex + 1}`}
-              layout="intrinsic"
               width={800}
               height={600}
               className={`rounded-lg transition-transform ${
-                isFlashing ? "scale-100" : "scale-100"
+                isFlashing ? "scale-105" : "scale-100"
               } duration-200`}
             />
           </div>
@@ -115,7 +114,7 @@ const Projects = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Users can track cost, sevice date, purchase date, and serial numbers.
+          Users can track cost, service date, purchase date, and serial numbers.
         </p>
         <a
           target="_blank"
