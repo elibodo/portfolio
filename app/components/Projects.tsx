@@ -24,25 +24,15 @@ const Projects = () => {
     "/string_vault_4.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isFading, setIsFading] = useState(false);
-
-  const changeImage = (newIndex: number) => {
-    setIsFading(true);
-    setTimeout(() => {
-      setCurrentIndex(newIndex);
-      setIsFading(false);
-    }, 700);
-    setTimeout(() => {}, 1000);
-  };
 
   const nextImage = () => {
     const newIndex = (currentIndex + 1) % images.length;
-    changeImage(newIndex);
+    setCurrentIndex(newIndex);
   };
 
   const prevImage = () => {
     const newIndex = (currentIndex - 1 + images.length) % images.length;
-    changeImage(newIndex);
+    setCurrentIndex(newIndex);
   };
 
   return (
@@ -63,17 +53,13 @@ const Projects = () => {
           </div>
         </div>
         <div className="relative border-2 border-white rounded-lg mt-2 overflow-hidden">
-          <div
-            className={`relative transition-opacity duration-300 ${
-              isFading ? "opacity-0" : "opacity-100"
-            }`}
-          >
+          <div className={`relative transition-opacity duration-300`}>
             <Image
               src={images[currentIndex]}
               alt={`Image ${currentIndex + 1}`}
               width={800}
               height={600}
-              className={`rounded-lg transition-transform duration-1000`}
+              className={``}
             />
           </div>
           <button
