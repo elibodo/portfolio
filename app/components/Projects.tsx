@@ -53,13 +53,13 @@ const Projects = () => {
           </div>
         </div>
         <div className="relative border-2 border-white rounded-lg mt-2 overflow-hidden">
-          <div className={`relative transition-opacity duration-300`}>
+          <div className="relative">
             <Image
               src={images[currentIndex]}
               alt={`Image ${currentIndex + 1}`}
               width={800}
               height={600}
-              className={``}
+              className=""
             />
           </div>
           <button
