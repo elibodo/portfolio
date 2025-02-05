@@ -20,10 +20,10 @@ export default function Home() {
           Eli Bodovinitz
         </h2>
         <p className="mt-5 justify-center md:self-start">
-          I&apos;m a full stack web developer.
+          I&apos;m a full stack developer.
         </p>
         <p className="mt-5 justify-center md:self-start text-cyan-500">
-          Riverview, Florida
+          Wimauma, Florida
         </p>
         <p className="justify-center md:self-start text-cyan-500">
           ebodovinitz@gmail.com
@@ -54,19 +54,17 @@ export default function Home() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={"EliBodovinitz.Resume.pdf"}
+            href={"EliBodovinitzResume.pdf"}
             className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
           >
             <BiLinkExternal />
           </a>
         </div>
         <p className="text-sm md:text-left text-center">
-          I&apos;m a web developer with experience in JavaScript, TypeScript,
-          React, Next.js, and Tailwind CSS. I use these technologies to build
-          modern, responsive websites and apps. I thrive on solving complex
-          problems and delivering scalable, efficient solutions. I enjoy
-          building applications that I&apos;m passionate about, driven by the
-          desire to create what I believe should exist.
+          I&apos;m a full stack developer with professional experience in
+          JavaScript, React.js, Next.js, SQL, MongoDB, and Tailwind CSS, HTML,
+          and CSS. I also have non-professional experience using C#, Visual
+          Basic, Python, and Java.
         </p>
       </div>
       <div className="w-full md:w-6/12 px-1">

@@ -6,11 +6,11 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoVercel } from "react-icons/io5";
 import { BiLogoMongodb } from "react-icons/bi";
-import { BiLogoStripe } from "react-icons/bi";
-import { SiPusher } from "react-icons/si";
 import { BiLogoHtml5 } from "react-icons/bi";
 import { BiLogoCss3 } from "react-icons/bi";
-import { VscVscode } from "react-icons/vsc";
+import { PiFileCSharp } from "react-icons/pi";
+import { BiLogoPython } from "react-icons/bi";
+import { PiFileSql } from "react-icons/pi";
 
 const Technologies = () => {
   return (
@@ -48,39 +48,37 @@ const Technologies = () => {
           <p className="text-sm select-none">MONGODB</p>
         </div>
         <div className="border-2 rounded-md px-2 py-2 flex gap-2 items-center justify-center w-full h-full hover:scale-105 hover:border-cyan-500 transition duration-200 ease-in-out">
-          <BiLogoStripe className="text-cyan-500 text-2xl" />
-          <p className="text-sm select-none">STRIPE</p>
+          <PiFileSql className="text-cyan-500 text-2xl" />
+          <p className="text-sm select-none">SQL</p>
         </div>
         <div className="border-2 rounded-md px-2 py-2 flex gap-2 items-center justify-center w-full h-full hover:scale-105 hover:border-cyan-500 transition duration-200 ease-in-out">
-          <SiPusher className="text-cyan-500 text-2xl" />
-          <p className="text-sm select-none">PUSHER</p>
+          <PiFileCSharp className="text-cyan-500 text-2xl" />
+          <p className="text-sm select-none">C#</p>
         </div>
         <div className="border-2 rounded-md px-2 py-2 flex gap-2 items-center justify-center w-full h-full hover:scale-105 hover:border-cyan-500 transition duration-200 ease-in-out">
           <BiLogoHtml5 className="text-cyan-500 text-2xl" />
-          <p className="text-sm select-none">HTML5</p>
+          <p className="text-sm select-none">HTML</p>
         </div>
         <div className="border-2 rounded-md px-2 py-2 flex gap-2 items-center justify-center w-full h-full hover:scale-105 hover:border-cyan-500 transition duration-200 ease-in-out">
           <BiLogoCss3 className="text-cyan-500 text-2xl" />
-          <p className="text-sm select-none">CSS3</p>
+          <p className="text-sm select-none">CSS</p>
         </div>
         <div className="border-2 rounded-md px-2 py-2 flex gap-2 items-center justify-center w-full h-full hover:scale-105 hover:border-cyan-500 transition duration-200 ease-in-out">
-          <VscVscode className="text-cyan-500 text-2xl" />
-          <p className="text-sm select-none">VSCODE</p>
+          <BiLogoPython className="text-cyan-500 text-2xl" />
+          <p className="text-sm select-none">PYTHON</p>
         </div>
       </div>
 
-      <p className="">
+      {/* <p className="">
         I have used <span className="text-cyan-500 font-semibold">GOOGLE</span>{" "}
         <span className="text-cyan-500">API&apos;s</span>,{" "}
         <span className="text-cyan-500">Workspace</span>, and{" "}
         <span className="text-cyan-500">Google Ads</span>.
-      </p>
+      </p> */}
+      <p>I am also proficient in Microsoft Word, Excel, and Powerpoint.</p>
       <p>
-        I am proficient in{" "}
-        <span className="text-cyan-500 font-semibold">MICROSOFT</span>{" "}
-        <span className="text-cyan-500">Word</span>,{" "}
-        <span className="text-cyan-500">Excel</span>, and{" "}
-        <span className="text-cyan-500">Powerpoint</span>.
+        I have also used technologies like Stripe, Pusher, Google API&apos;s,
+        and Google Workspace.
       </p>
     </div>
   );

@@ -26,15 +26,28 @@ const Education = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Gained proficiency in multiple programming languages and technologies,
-          building a strong technical foundation.
+          Developed applications using C#, Visual Basic, C, Java, and Python.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Collaborated on group projects, honing teamwork, task delegation, and
-          project management skills to develop real-world applications.
+          Gained experience in software development, database management, and
+          application design.
+        </p>
+        <p className="flex items-start mt-2">
+          <span className="mt-1 mx-2 text-lg text-cyan-500">
+            <IoMdArrowDropright />
+          </span>
+          Applied object-oriented programming (OOP) principles to real-world
+          projects.
+        </p>
+        <p className="flex items-start mt-2">
+          <span className="mt-1 mx-2 text-lg text-cyan-500">
+            <IoMdArrowDropright />
+          </span>
+          Learned debugging, troubleshooting, problem-solving, and analytical
+          skills.
         </p>
       </div>
       <div>
@@ -56,8 +69,8 @@ const Education = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Built a foundational understanding of Java, Python, and C, gaining
-          versatile programming skills across multiple languages.
+          Worked with databases, algorithms, and data structures to build
+          efficient application.
         </p>
       </div>
     </div>

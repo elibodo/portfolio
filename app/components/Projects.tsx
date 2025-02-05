@@ -80,20 +80,22 @@ const Projects = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Blog style website where people can add photos of their guitar
-          collection for everyone to see with light and dark mode.
+          A web application designed for guitar enthusiasts to catalog their
+          guitar collections, track serial numbers, cost, maintenance, and share
+          photos of their instruments.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Uses OAuth to sign up and Supabase for the database.
+          Developed a responsive and user-friendly UI for seamless navigation
+          and collection management.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Users can track cost, service date, purchase date, and serial numbers.
+          The site uses OAuth to sign up and Supabase for the database.
         </p>
         <a
           target="_blank"

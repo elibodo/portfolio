@@ -5,7 +5,7 @@ import { MdAlternateEmail } from "react-icons/md";
 
 const BottomNav = () => {
   return (
-    <footer className="mt-auto flex w-full justify-center pb-6 pt-[52px]">
+    <footer className="mt-auto flex w-full justify-center pb-6 pt-[14px]">
       <div className="flex-row flex gap-6 text-2xl">
         <a
           target="_blank"
@@ -32,7 +32,7 @@ const BottomNav = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href={"EliBodovinitz.Resume.pdf"}
+          href={"EliBodovinitzResume.pdf"}
           className="text-white hover:text-cyan-500 hover:scale-125 transition duration-200 ease-in-out"
         >
           <BiLinkExternal />

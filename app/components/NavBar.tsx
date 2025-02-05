@@ -128,7 +128,7 @@ const NavBar = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href={"EliBodovinitz.Resume.pdf"}
+          href={"EliBodovinitzResume.pdf"}
           className="relative group flex items-center py-1"
         >
           <span

@@ -18,27 +18,39 @@ const WorkExperience = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Led the design, development, and launch of DeliveryJobs.com, a
-          specialized job platform for delivery and logistics roles.
+          Helped build and maintained a responsive Next.js and JavaScript web
+          application.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Built the application using Next.js, React, and Tailwind, integrating
-          Stripe for payments, MongoDB for data storage, and Pusher for
-          real-time messaging.
+          Integrated Stripe for secure payment processing and MongoDB for
+          database management.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Developed tailored navigation and account workflows for employers and
-          job seekers with reusable React components.
+          Implemented SEO strategies and optimized site performance to increase
+          traffic.
+        </p>
+        <p className="flex items-start mt-2">
+          <span className="mt-1 mx-2 text-lg text-cyan-500">
+            <IoMdArrowDropright />
+          </span>
+          Managed end-to-end product development, including UX/UI,
+          authentication, and overall site functionality.
+        </p>
+        <p className="flex items-start mt-2">
+          <span className="mt-1 mx-2 text-lg text-cyan-500">
+            <IoMdArrowDropright />
+          </span>
+          Executed digital marketing campaigns (Google Ads) to drive sign-ups.
         </p>
       </div>
       <div>
-        <h1 className="text-xl text-cyan-500">Business Contact</h1>
+        <h1 className="text-xl text-cyan-500">Operations Manager</h1>
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
           <h2 className="text-lg">White Sands Delivery Inc.</h2>
           <h3 className="text-sm">April 2021 to October 2023</h3>
@@ -48,23 +60,35 @@ const WorkExperience = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Developed, optimized, and balanced delivery routes to align employee
-          strengths and company cost-efficiency objectives and goals.
+          Managed a team of 20 to 40 drivers, collaborating with three other
+          managers to oversee daily operations.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Monitored and maintained GPS and camera systems on company vehicles to
-          ensure operational functionality and compliance.
+          Oversaw daily logistics and delivery operations to ensure efficiency
+          and on-time performance.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Enforced policies and procedures in strict adherence to contractual
-          requirements with FedEx, ensuring regulatory and service standards
-          were met consistently.
+          Managed driver scheduling, route optimization, and fleet coordination.
+        </p>
+        <p className="flex items-start mt-2">
+          <span className="mt-1 mx-2 text-lg text-cyan-500">
+            <IoMdArrowDropright />
+          </span>
+          Ensured compliance with DOT regulation, safety standards, and company
+          policies.
+        </p>
+        <p className="flex items-start mt-2">
+          <span className="mt-1 mx-2 text-lg text-cyan-500">
+            <IoMdArrowDropright />
+          </span>
+          Monitored key performance metrics and optimized workflows to improve
+          service quality.
         </p>
       </div>
     </div>
