@@ -62,9 +62,9 @@ export default function Home() {
         </div>
         <p className="text-sm md:text-left text-center">
           I&apos;m a full stack developer with professional experience in
-          JavaScript, React.js, Next.js, SQL, MongoDB, and Tailwind CSS, HTML,
-          and CSS. I also have non-professional experience using C#, Visual
-          Basic, Python, and Java.
+          JavaScript, React.js, Next.js, SQL, MongoDB, Tailwind CSS, HTML, and
+          CSS. I also have non-professional experience using C#, Visual Basic,
+          Python, and Java.
         </p>
       </div>
       <div className="w-full md:w-6/12 px-1">
