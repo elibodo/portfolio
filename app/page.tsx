@@ -60,11 +60,16 @@ export default function Home() {
             <BiLinkExternal />
           </a>
         </div>
-        <p className="text-sm md:text-left text-center">
+        {/* <p className="text-sm md:text-left text-center">
           I&apos;m a full stack developer with professional experience in
           JavaScript, React.js, Next.js, SQL, MongoDB, Tailwind CSS, HTML, and
           CSS. I also have non-professional experience using C#, Visual Basic,
           Python, and Java.
+        </p> */}
+        <p className="text-sm md:text-left text-center">
+          Im a full stack developer with experience in JavaScript, React.js,
+          Next.js, SQL, MongoDB, and Tailwind CSS. I also know Node.js, C#, .Net
+          Core, and many other technologies.
         </p>
       </div>
       <div className="w-full md:w-6/12 px-1">

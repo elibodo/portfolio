@@ -18,15 +18,16 @@ const WorkExperience = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Helped build and maintained a responsive Next.js and JavaScript web
+          Built and maintained a responsive Next.js and JavaScript web
           application.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Integrated Stripe for secure payment processing and MongoDB for
-          database management.
+          Integrated Stripe for secure payment processing, MongoDB for data
+          storage, Google Geolocation API for distance-based searching, and
+          Pusher for real-time messaging.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
@@ -39,14 +40,7 @@ const WorkExperience = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Managed end-to-end product development, including UX/UI,
-          authentication, and overall site functionality.
-        </p>
-        <p className="flex items-start mt-2">
-          <span className="mt-1 mx-2 text-lg text-cyan-500">
-            <IoMdArrowDropright />
-          </span>
-          Executed digital marketing campaigns (Google Ads) to drive sign-ups.
+          Created digital marketing campaigns (Google Ads) to drive sign-ups.
         </p>
       </div>
       <div>
@@ -60,15 +54,8 @@ const WorkExperience = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Managed a team of 20 to 40 drivers, collaborating with three other
-          managers to oversee daily operations.
-        </p>
-        <p className="flex items-start mt-2">
-          <span className="mt-1 mx-2 text-lg text-cyan-500">
-            <IoMdArrowDropright />
-          </span>
-          Oversaw daily logistics and delivery operations to ensure efficiency
-          and on-time performance.
+          Managed a team of 40 drivers, collaborating with three other managers
+          to oversee daily operations.
         </p>
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
@@ -80,7 +67,7 @@ const WorkExperience = () => {
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
-          Ensured compliance with DOT regulation, safety standards, and company
+          Ensured compliance with DOT regulations, safety standards, and company
           policies.
         </p>
         <p className="flex items-start mt-2">

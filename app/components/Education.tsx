@@ -35,13 +35,13 @@ const Education = () => {
           Gained experience in software development, database management, and
           application design.
         </p>
-        <p className="flex items-start mt-2">
+        {/* <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
           </span>
           Applied object-oriented programming (OOP) principles to real-world
           projects.
-        </p>
+        </p> */}
         <p className="flex items-start mt-2">
           <span className="mt-1 mx-2 text-lg text-cyan-500">
             <IoMdArrowDropright />
