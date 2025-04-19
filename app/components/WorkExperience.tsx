@@ -11,7 +11,7 @@ const WorkExperience = () => {
         <h1 className="text-xl text-cyan-500">Full Stack Web Developer</h1>
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
           <h2 className="text-lg">Delivery Jobs LLC</h2>
-          <h3 className="text-sm">October 2023 to present</h3>
+          <h3 className="text-sm">October 2023 to March 2025</h3>
         </div>
 
         <p className="flex items-start mt-2">
