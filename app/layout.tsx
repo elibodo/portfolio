@@ -3,6 +3,7 @@ import "./globals.css";
 import { Oxygen } from "next/font/google";
 import NavBar from "./components/NavBar";
 import BottomNav from "./components/BottomNav";
+import { Analytics } from "@vercel/analytics/next";
 
 const oxygen = Oxygen({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
           <div className="flex-1">{children}</div>
           <BottomNav />
         </main>
+        <Analytics />
       </body>
     </html>
   );
