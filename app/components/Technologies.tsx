@@ -18,7 +18,7 @@ const Technologies = () => {
       <h3 className="text-3xl text-cyan-500 flex justify-center md:justify-start">
         Technologies
       </h3>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3">
         <div className="border-2 rounded-md px-2 py-2 flex gap-2 items-center justify-center w-full h-full hover:scale-105 hover:border-cyan-500 transition duration-200 ease-in-out">
           <BiLogoJavascript className="text-cyan-500 text-2xl" />
           <p className="text-sm select-none">JAVASCRIPT</p>
@@ -88,8 +88,12 @@ const Technologies = () => {
           Microsoft SQL Server, Supabase
         </p>
         <p>
-          <span className="text-cyan-500 mr-3">Tools:</span> Azure, Google
-          Cloud, GitHub, Stripe, Postman, Microsoft Office Suite
+          <span className="text-cyan-500 mr-3">Cloud:</span> Vercel, Azure,
+          Google Cloud APIs
+        </p>
+        <p>
+          <span className="text-cyan-500 mr-3">Tools:</span> GitHub, Stripe,
+          Postman, Microsoft Office Suite
         </p>
       </div>
     </div>
