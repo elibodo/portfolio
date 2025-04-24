@@ -67,8 +67,8 @@ export default function Home() {
           Python, and Java.
         </p> */}
         <p className="text-sm md:text-left text-center">
-          Im a full stack developer with experience in JavaScript, React.js,
-          Next.js, SQL, MongoDB, and Tailwind CSS. I also know Node.js, C#, .Net
+          I'm a full stack developer with experience in JavaScript, React.js,
+          Next.js, SQL, MongoDB, and Tailwind CSS. I also know Node.js, C#, .NET
           Core, and many other technologies.
         </p>
       </div>
