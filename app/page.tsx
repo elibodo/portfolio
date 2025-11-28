@@ -66,10 +66,14 @@ export default function Home() {
           CSS. I also have non-professional experience using C#, Visual Basic,
           Python, and Java.
         </p> */}
-        <p className="text-sm md:text-left text-center">
+        {/* <p className="text-sm md:text-left text-center">
           I&apos;m a full stack developer with experience in JavaScript,
           React.js, Next.js, SQL, MongoDB, and Tailwind CSS. I also know
           Node.js, C#, .NET Core, and many other technologies.
+        </p> */}
+        <p className="text-sm md:text-left text-center">
+          I&apos;m a full stack developer with experience in React, C#, Next.js,
+          MongoDB, SQL, Node.js, and many other technologies.
         </p>
       </div>
       <div className="w-full md:w-6/12 px-1">
